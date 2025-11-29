@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h2{
+    text-align: left;
+    display: inline-flex;
+}
+a:visited {
+        text-decoration-color:;
+        color: white;
+    }
+a:hover {
+         text-decoration: none;
+    }
+
+a:active {
+         text-decoration: solid;
+    }
+a::after {
+        text-decoration: none;
+}
