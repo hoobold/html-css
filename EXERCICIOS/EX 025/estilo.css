@@ -30,6 +30,25 @@
             background-color: yellow;
             border-radius: 5px;
         }
+        #in1, #in2 {
+            font-weight: bolder;
+            background-color: white;
+            color: black;
+        }
+        form > p > label {
+            background-color: yellow;
+            border-radius: 3px;
+            font-weight: bolder;
+            color: black;
+            max-width: fit-content;
+            margin: 2px;
+        }
+        form > p > input {
+            max-width: fit-content;
+            box-shadow: 3px 3px black;
+            background-color: darkgoldenrod;
+            border-radius: 8px;
+        }
         form > fieldset > p {
             font-weight: bold;
             font-size: large;
