@@ -13,20 +13,22 @@ body {
     width: 100vw;
 }
 header {
-    background-color: gray;
+    background-color: dodgerblue;
     color: white;
     padding: 10px;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 header > h1 {
+    color: white;
     flex: 0 0 200px;
+    padding: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.521);
 }
 header > nav {
-    background-color: gray;
+    background-color: dodgerblue;
     color: white;
     padding: 10px;
     display: flex;
@@ -34,18 +36,19 @@ header > nav {
     justify-content: flex-end;
 }
 header > nav > a {
-    background-color: black;
+    background-color: rgb(1, 66, 243);
     color: white;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 10px;
     text-decoration: none;
-    text-align: center;
 }
 header > nav > a:hover {
     background-color: white;
     color: black;
-    transition: background-color 0.5s;
+    transition: background-color .5s;
+}
+span#burguer {
+    display: none;
 }
 main {
     background-color: white;
