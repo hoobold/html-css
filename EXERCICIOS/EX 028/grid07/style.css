@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+div.container {
+    display: grid;
+    grid-template-rows: repeat(5, 120px);
+    grid-template-columns: repeat(4, 1fr);
+}
+.topo {
+    background-color: red;
+    text-align: center;
+    color: white;
+    grid-area: 1 / 1 / span 1 / span 4;
+}
+.topo:hover {
+    background-color: brown;
+}
+.menu {
+    background-color: green;
+    text-align: center;
+    grid-area: 2 / 1 / span 1 / span 4;
+}
+.menu:hover {
+    background-color: rgba(0, 0, 255, 0.507);
+}
+.principal {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    grid-area: 3 / 1 / span 3 / span 3;
+}
+.principal:hover {
+    background-color: burlywood;
+}
+.secundario {
+    background-color: slateblue;
+    text-align: center;
+    grid-area: 3 / 4 / span 2 / span 1;
+}
+.secundario:hover {
+    background-color: springgreen;
+}
+.rodape {
+    background-color: violet;
+    text-align: center;
+    grid-area: 5 / 1 / span 1 / span 4;
+}
+.rodape:hover {
+    background-color: sienna;
+}

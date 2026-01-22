@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 150px;
+    gap: 5px;
+}
+.caixa {
+    padding: 10px;
+    text-align: center;
+}
+#topo {
+    background-color: red;
+    text-align: center;
+    color: white;
+    grid-area: 1 / 1 / span 1 / span 3;
+}
+#topo:hover {
+    background-color: brown;
+}
+#menu {
+    background-color: green;
+    text-align: center;
+    grid-area: 2 / 1 / span 1 / span 2;
+}
+#menu:hover {
+    background-color: rgba(0, 0, 255, 0.507);
+}
+#principal {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    grid-area: 3 / 1 / span 1 / span 1;
+}
+#principal:hover {
+    background-color: burlywood;
+}
+#secundario {
+    background-color: slateblue;
+    text-align: center;
+    grid-area: 3 / 2 / span 1 / span 1;
+}
+#secundario:hover {
+    background-color: springgreen;
+}
+#rodape {
+    background-color: violet;
+    text-align: center;
+    grid-area: 4 / 1 / span 1 / span 2;
+}
+#rodape:hover {
+    background-color: sienna;
+}
